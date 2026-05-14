@@ -1,0 +1,6 @@
+node_modules
+.env
+localhost.pem
+localhost-key.pem
+uploads/*
+!uploads/.gitkeep

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4f46e5; /* Indigo 600 */
+  --primary-hover: #4338ca; /* Indigo 700 */
+  --bg-main: #ffffff;
+  --bg-side: #f9fafb;
+  --text-main: #1f2937;
+  --text-dim: #6b7280;
+  --border: #e5e7eb;
+}
+
+.dark {
+  --primary: #818cf8;
+  --primary-hover: #a5b4fc;
+  --bg-main: #020617; /* Deepest Navy */
+  --bg-side: #0f172a; /* Slate 900 */
+  --bg-card: #1e293b; /* Slate 800 */
+  --text-main: #f1f5f9;
+  --text-dim: #94a3b8;
+  --border: #334155;
+  --border-dim: #1e293b;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+}
+
+/* Professional Components */
+.card-prof {
+  @apply rounded-3xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-indigo-500/5;
+  background-color: var(--bg-card, var(--bg-main));
+  border: 1px solid var(--border);
+}
+
+.btn-prof {
+  @apply px-5 py-2 rounded-lg font-medium transition-all active:scale-95 disabled:opacity-50;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  @apply text-white hover:opacity-90 shadow-md;
+}
+
+.btn-secondary {
+  @apply border border-gray-300 dark:border-slate-600 hover:bg-gray-50 dark:hover:bg-slate-700;
+  color: var(--text-main);
+}
+
+/* AI Assistant */
+.ai-bubble {
+  @apply fixed bottom-6 right-6 w-14 h-14 bg-indigo-600 text-white rounded-2xl shadow-2xl flex items-center justify-center cursor-pointer transition-all hover:scale-110 active:scale-95 z-[1000];
+}
+
+/* Input Styles */
+input, textarea, select {
+  @apply bg-gray-50 dark:bg-slate-900 border border-gray-300 dark:border-slate-700 rounded-lg px-4 py-2 outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500 transition-all;
+  color: var(--text-main);
+}
+
+/* Date input fix - ensures the native date picker is always visible and clickable */
+input[type="date"] {
+  @apply bg-white dark:bg-slate-800 border border-gray-300 dark:border-slate-600 rounded-lg px-4 py-3 w-full cursor-pointer;
+  color: var(--text-main);
+  color-scheme: light dark;
+  min-height: 44px;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.7;
+  filter: invert(0);
+}
+
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+  opacity: 0.8;
+}
+
+/* Theme Toggle animation */
+.theme-transition {
+  transition: background-color 0.5s ease, border-color 0.5s ease, color 0.5s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-side);
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #475569;
+}

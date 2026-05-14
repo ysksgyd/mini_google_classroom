@@ -1,0 +1,30 @@
+[2026-05-03T06:29:30.776Z] FAILED: To ityashu60@gmail.com. Error: Invalid login: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 98e67ed59e1d1-364be028cd6sm10200848a91.14 - gsmtp
+[2026-05-03T07:21:43.868Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <6fd2c473-1d04-3038-35b9-497cf058ecf7@gmail.com>
+[2026-05-03T07:33:48.249Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Your One-Time Password (OTP) for Registration)
+[2026-05-03T07:34:17.707Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Your One-Time Password (OTP) for Registration)
+[2026-05-03T07:34:20.615Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <51f95dd4-bcac-694b-42d8-7b9e4c9e439d@gmail.com>
+[2026-05-03T07:34:37.771Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Welcome to Mini Google Classroom)
+[2026-05-03T07:35:01.630Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <f0856fe6-a668-199b-cd37-4951b6a27e24@gmail.com>
+[2026-05-04T11:27:42.100Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Your One-Time Password (OTP) for Registration)
+[2026-05-04T11:27:46.366Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <5da1224f-b64b-8305-9ff7-fb5758ff5aa1@gmail.com>
+[2026-05-04T11:28:04.002Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Welcome to Mini Google Classroom)
+[2026-05-04T11:28:07.817Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <7ad166de-efef-5d99-884c-d617700d83ae@gmail.com>
+[2026-05-04T11:43:19.743Z] ATTEMPT: Sending to yashaswiniskumar2021@gmail.com (Subject: Your One-Time Password (OTP) for Registration)
+[2026-05-04T11:43:43.918Z] SUCCESS: Sent to yashaswiniskumar2021@gmail.com. MessageId: <7976ada7-f9fd-7589-950e-7fcc0011328d@gmail.com>
+[2026-05-04T11:44:02.967Z] ATTEMPT: Sending to yashaswiniskumar2021@gmail.com (Subject: Welcome to Mini Google Classroom)
+[2026-05-04T11:44:26.768Z] SUCCESS: Sent to yashaswiniskumar2021@gmail.com. MessageId: <ef1fc33c-0fac-f11b-7dc4-e74e4b8bee07@gmail.com>
+[2026-05-05T06:58:53.351Z] ATTEMPT: Sending to yashaswiniskumar2021@gmail.com (Subject: Your One-Time Password (OTP) for Registration)
+[2026-05-05T06:59:17.634Z] SUCCESS: Sent to yashaswiniskumar2021@gmail.com. MessageId: <d0da2964-827a-ce84-3e53-d88fb67e98a8@gmail.com>
+[2026-05-05T06:59:41.028Z] ATTEMPT: Sending to yashaswiniskumar2021@gmail.com (Subject: Welcome to Mini Google Classroom)
+[2026-05-05T07:00:05.061Z] SUCCESS: Sent to yashaswiniskumar2021@gmail.com. MessageId: <deca401d-d89a-669a-48f2-840aa1d7c287@gmail.com>
+[2026-05-05T07:42:34.998Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Your One-Time Password (OTP) for Registration)
+[2026-05-05T07:42:38.109Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <0c26159e-8ec0-6051-6508-edf248ae8971@gmail.com>
+[2026-05-05T07:42:54.858Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Welcome to Mini Google Classroom)
+[2026-05-05T07:42:57.376Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <08ced788-e872-f155-c5d6-7e39ea407901@gmail.com>
+[2026-05-05T16:31:02.687Z] ATTEMPT: Sending to ityashu60@gmail.com (Subject: Assignment Received: chapter 1)
+[2026-05-05T16:31:06.258Z] SUCCESS: Sent to ityashu60@gmail.com. MessageId: <2f386384-9544-d6a7-7fd5-b2a3a9402b3e@gmail.com>
+[2026-05-11T14:55:53.675Z] ATTEMPT: Sending to yashaswiniskumar2021@gmail.com (Subject: New Online Class Scheduled for security: TEST MEETING)
+[2026-05-11T14:55:56.807Z] SUCCESS: Sent to yashaswiniskumar2021@gmail.com. MessageId: <ad0f6484-c7c6-ad6d-1ff5-1050aa8de78d@gmail.com>
+[2026-05-11T15:17:40.923Z] ATTEMPT: Sending to yashaswiniskumar2021@gmail.com (Subject: New Online Class Scheduled for security: c2)
+[2026-05-11T15:18:10.937Z] SUCCESS: Sent to yashaswiniskumar2021@gmail.com. MessageId: <ca623992-d05d-3ebc-a358-92241897947c@gmail.com>
